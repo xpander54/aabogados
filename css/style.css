@@ -1,0 +1,182 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: oxygen;
+}
+
+/*
+Fonts
+*/
+
+
+@font-face {
+    font-family: 'oxygen';
+    src: url('font/Oxygen-webfont.eot');
+    src: url('font/Oxygen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Oxygen-webfont.woff') format('woff'),
+         url('font/Oxygen-webfont.ttf') format('truetype'),
+         url('font/Oxygen-webfont.svg#OxygenRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oxygenItalic';
+    src: url('font/Oxygen-Italic-webfont.eot');
+    src: url('font/Oxygen-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Oxygen-Italic-webfont.woff') format('woff'),
+         url('font/Oxygen-Italic-webfont.ttf') format('truetype'),
+         url('font/Oxygen-Italic-webfont.svg#OxygenItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oxygenBold';
+    src: url('font/Oxygen-Bold-webfont.eot');
+    src: url('font/Oxygen-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Oxygen-Bold-webfont.woff') format('woff'),
+         url('font/Oxygen-Bold-webfont.ttf') format('truetype'),
+         url('font/Oxygen-Bold-webfont.svg#OxygenBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oxygenBoldItalic';
+    src: url('font/Oxygen-BoldItalic-webfont.eot');
+    src: url('font/Oxygen-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Oxygen-BoldItalic-webfont.woff') format('woff'),
+         url('font/Oxygen-BoldItalic-webfont.ttf') format('truetype'),
+         url('font/Oxygen-BoldItalic-webfont.svg#OxygenBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*
+Fonts
+*/
+
+body
+{
+	background: url(img/bg.jpg) repeat-x;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.wrapper
+{
+ 	width: 80%;
+	height: 400px;
+	margin: 0 auto;
+	box-shadow: 0px 10px 15px -2px black;
+
+}
+
+/* Header */
+
+
+
+
+/*main*/
+
+.main
+{
+	
+	width: 100%;
+}
+
+.slide-container
+{
+	height: 256px;
+	width: 100%;
+}
+
+.slide-index
+{
+	position: absolute;
+	width: 100%;
+	height: 256px;
+}
+
+.logo-index
+{
+	position: absolute;
+	width: 20%;
+	height: 100px;
+	background: red;
+	margin: 15% 0px 0px 5%;
+	
+}
+
+.texto-index
+{
+	position: absolute;
+	width: 40%;
+	font-size: 16px;
+	color: #fff;
+	margin: 15% 0px 0px 35%;
+	
+}
+
+/*footer*/
+
+.footer
+{
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	line-height: 1em;
+}
+
+.direccion
+{
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+/* nav horizontal principal */
+
+.menu-horizontal{
+	list-style: none;
+	height: 64px;
+}
+
+.menu-horizontal:after{
+	clear: both;
+	content: '.';
+	height: 0;
+	visibility: hidden;
+}
+
+.menu-horizontal a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+	height: 32px;
+	line-height: 200%;
+	padding: 0 .75em;
+	margin: 0 .5em;
+	text-align: center;
+	border-radius: .4em;
+
+}
+
+.menu-horizontal a:hover, .menu-horizontal a.active{
+	background-color: #666;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,.4);
+}
+
+.menu-horizontal li{
+	display: block;
+	float: left;
+	margin: 1em 0;
+}
+
