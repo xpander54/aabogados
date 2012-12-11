@@ -3,18 +3,28 @@
 <head>
 	<title>Adam Abogados</title>
 
-	<LINK REL=StyleSheet HREF="css/style.css" TYPE="text/css">
+	<meta charset="utf-8"></meta>
 
+	<LINK REL="StyleSheet" HREF="css/style.css" TYPE="text/css">
+	
+	<!--<LINK REL="StyleSheet" HREF="bootstrap/css/bootstrap.css" TYPE="text/css">	
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+
+	-->
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 <body>
 	<section class="wrapper">
 
 		<header class="main header">
 			<ul class="menu-horizontal">
-				<li><a href="#" class="active">Inicio</a></li>
-				<li><a href="#">Adam Abogados</a></li>
-				<li><a href="#">Servicios</a></li>
-				<li><a href="#">Contacto</a></li>
+				<li><a href="#" data-url="inicio.htm" class="active btn">Inicio</a></li>
+				<li><a href="#" data-url="aabogados.htm" class="btn">Adam Abogados</a></li>
+				<li><a class="btn" data-url="servicios.htm" href="#">Servicios</a></li>
+				<li><a class="btn" data-url="blog.htm" href="#">Blog</a></li>
+				<li><a class="btn" data-url="contacto.htm" href="#">Contacto</a></li>
 			</ul>
 		</header>
 
@@ -23,12 +33,15 @@
 			<div class="slide-container">
 
 				<div class="slide-index">
+					
+					<div class="slide-index">
 
 
 					<div class="logo-index">
-						
+						<img src="img/logo.png" alt="Adam Abogados" class="logo-img">
 					</div>
 
+					
 					<div class="texto-index">
 
 						 Brindamos asesor&iacute;a y soluciones legales tanto a empresas como a personas f&iacute;sicas.
@@ -36,8 +49,13 @@
 
 					</div>
 
+					</div>
+
 
 				</div>
+				
+
+				
 				
 			</div>
 
@@ -54,6 +72,9 @@ Telefonos:55-23-24-04, 55-23-19-16 Y 55-23-23-95
 		</footer>
 
 	</section>
+
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
